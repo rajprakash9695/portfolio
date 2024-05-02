@@ -1,7 +1,10 @@
 import About from "@/components/About";
+import Certifications from "@/components/Ceritificate";
+import Contacts from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Projects";
+import Skill from "@/components/Skill";
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <Hero />
       <About />
       <Project />
+      <Skill />
+      <Certifications />
+      <Contacts />
     </main>
   );
 }
